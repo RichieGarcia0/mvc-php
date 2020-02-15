@@ -30,7 +30,7 @@
                         ?>
                         <tr>
                             <td><?php echo $datos[$i]["nombre"]; ?></td>
-                            <td><?php echo $datos[$i]["precio"]; ?> €</td>
+                            <td> $<?php echo $datos[$i]["precio"]; ?></td>
                         </tr>
                         <?php
                     }
